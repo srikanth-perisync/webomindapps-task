@@ -7,10 +7,19 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      textColor: {
+        'primary': '#EE1B30',
+        'secondary': '#000000'
       },
+      backgroundColor: {
+        'primary': '#EE1B30'
+      },
+      borderColor: {
+        'primary': '#EE1B30'
+      },
+      fill: {
+        'primary': '#EE1B30'
+      }
     },
   },
   plugins: [],

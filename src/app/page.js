@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import ImagesStack from "@/components/images-stack";
@@ -8,7 +9,8 @@ export default function Home() {
     <Fragment>
       <Header />
       <Hero />
-      <ImagesStack />
+      {/* <ImagesStack /> */}
+      <Footer />
     </Fragment>
   )
 }

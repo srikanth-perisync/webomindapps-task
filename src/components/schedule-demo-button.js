@@ -5,7 +5,7 @@ const ScheduleDemoButton = () => {
     return (
         <Link
             href='#'
-            className='group py-[10px] flex items-center gap-3 px-6 rounded-[36px] bg-primary font-lato font-bold text-white transition-all duration-500 hover:bg-white border-2 border-transparent hover:text-primary hover:border-2 hover:border-primary'
+            className='group max-w-fit py-[10px] flex items-center gap-3 px-6 rounded-[36px] bg-primary font-lato font-bold text-white transition-all duration-500 hover:bg-white border-2 border-transparent hover:text-primary hover:border-2 hover:border-primary'
         >
             Schedule Demo
             <svg width="12" height="15" viewBox="0 0 7 12" fill='none' xmlns="http://www.w3.org/2000/svg">
